@@ -7,6 +7,55 @@
 </head>
 
 <body>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main Content -->
+    <header role="banner">
+        <h1 role="heading">My Accessible Portfolio</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <n role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="about" role="region">
+        <h2 role="heading">About Me</h2>
+        <img src="profile.jpg" alt="Profile picture of John Doe" role="img">
+        <p>Hi! I’m John Doe, a web developer passionate about building accessible websites. I believe the web should be inclusive for everyone, and I work to ensure all users, including those with disabilities, have a positive experience.</p>
+    </section>
+
+    <section id="projects" role="region">
+        <h2 role="heading">My Projects</h2>
+        <ul role="list">
+            <li role="listitem">Project 1: Accessible Web Design</li>
+            <li role="listitem">Project 2: E-commerce Platform</li>
+            <li role="listitem">Project 3: Responsive Web Application</li>
+        </ul>
+    </section>
+
+    <section id="contact" role="region">
+        <h2 role="heading">Contact Me</h2>
+        <p>If you would like to collaborate or have any questions, feel free to reach out to me!</p>
+        <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+    </section>
+
+</body>
+</html>
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
